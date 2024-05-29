@@ -7,7 +7,7 @@ let mensaje = document.getElementById('mensaje');
 
 function callAPI(valor){
     // Hacer una petición para un usuario con ID especifico
-    axios.get('http://18.171.249.102/backend/apis/getRegistro.php')
+    axios.get('http://13.40.11.172/backend/apis/getRegistro.php')
       .then(function (response) {
         // manejar respuesta exitosa
         console.log(response);
